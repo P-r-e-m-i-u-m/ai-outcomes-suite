@@ -2,7 +2,7 @@
 
 > Three serious AI startup MVPs in one open-source TypeScript repo: outcome tutoring, AI compliance, and first-line legal document help.
 
-[![CI](https://github.com/OWNER/ai-outcomes-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/ai-outcomes-suite/actions/workflows/ci.yml)
+[![CI](https://github.com/P-r-e-m-i-u-m/ai-outcomes-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/P-r-e-m-i-u-m/ai-outcomes-suite/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-339933.svg)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178C6.svg)](tsconfig.json)

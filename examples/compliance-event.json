@@ -1,0 +1,14 @@
+{
+  "appName": "demo-saas",
+  "userIdHash": "user_hash_123",
+  "model": "gpt-4.1-mini",
+  "purpose": "customer support answer",
+  "prompt": "User asks for refund policy.",
+  "response": "Here is the refund policy summary.",
+  "userConsent": true,
+  "safetyChecks": ["pii-redaction", "toxicity-check"],
+  "riskLevel": "low",
+  "humanOversightRequired": false,
+  "dataCategories": ["support-ticket"]
+}
+

@@ -1,0 +1,24 @@
+title: "Idea: "
+labels: ["help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: "Share an idea for one of the three products."
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - SAT Tutor
+        - AI Compliance OS
+        - Personal Legal Agent
+        - Shared / Other
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What should this repo add or improve?
+    validations:
+      required: true

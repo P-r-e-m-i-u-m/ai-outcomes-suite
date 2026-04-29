@@ -1,0 +1,24 @@
+{
+  "name": "ai-outcomes-suite",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Three open-source AI MVPs: SAT outcome tutor, AI compliance OS, and personal legal agent.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo:tutor": "node dist/apps/cli/index.js tutor",
+    "demo:compliance": "node dist/apps/cli/index.js compliance",
+    "demo:legal": "node dist/apps/cli/index.js legal",
+    "demo:all": "node dist/apps/cli/index.js all",
+    "test": "npm run build && node dist/tests/smoke.test.js",
+    "check": "npm run build && npm run demo:all && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -2,6 +2,20 @@
 
 Use these as seed issues after publishing the repository.
 
+## Generative AI Lab
+
+### Add one lesson on embeddings
+
+Create a short lesson under `curriculum/02-rag-systems/` explaining embeddings and add one runnable or testable artifact.
+
+### Add more prompt eval cases
+
+Extend `evals/genai-smoke-evals.json` with cases for SAT tutor, compliance reports, and legal letters.
+
+### Add a RAG dataset for compliance
+
+Create a small sample policy dataset under `datasets/` and connect it to `GenAiLab`.
+
 ## SAT Tutor
 
 ### Add five SAT geometry sample questions

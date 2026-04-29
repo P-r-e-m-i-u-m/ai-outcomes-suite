@@ -10,6 +10,7 @@
     "demo:tutor": "node dist/apps/cli/index.js tutor",
     "demo:compliance": "node dist/apps/cli/index.js compliance",
     "demo:legal": "node dist/apps/cli/index.js legal",
+    "demo:genai": "node dist/apps/cli/index.js genai",
     "demo:all": "node dist/apps/cli/index.js all",
     "test": "npm run build && node dist/tests/smoke.test.js",
     "check": "npm run build && npm run demo:all && npm test"

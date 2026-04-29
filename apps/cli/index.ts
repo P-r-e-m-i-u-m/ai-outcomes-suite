@@ -1,9 +1,8 @@
 import { createSampleTutor } from "../../packages/sat-tutor/src/index.js";
 import { createSampleComplianceLogger } from "../../packages/compliance-os/src/index.js";
 import { createSampleLegalAnalysis } from "../../packages/legal-agent/src/index.js";
-import { createSampleGenAiReport } from "../../packages/genai-lab/src/index.js";
 
-type DemoName = "tutor" | "compliance" | "legal" | "genai" | "all";
+type DemoName = "tutor" | "compliance" | "legal" | "all";
 
 const demo = (process.argv[2] ?? "all") as DemoName;
 
@@ -26,10 +25,6 @@ function runLegal(): void {
   print("Personal Legal Agent Analysis", createSampleLegalAnalysis());
 }
 
-function runGenAi(): void {
-  print("Generative AI Engineering Lab", createSampleGenAiReport());
-}
-
 switch (demo) {
   case "tutor":
     runTutor();
@@ -40,16 +35,13 @@ switch (demo) {
   case "legal":
     runLegal();
     break;
-  case "genai":
-    runGenAi();
-    break;
   case "all":
     runTutor();
     runCompliance();
     runLegal();
-    runGenAi();
     break;
   default:
-    console.error("Unknown demo. Use tutor, compliance, legal, genai, or all.");
+    console.error("Unknown demo. Use tutor, compliance, legal, or all.");
     process.exitCode = 1;
 }
+

@@ -2,7 +2,7 @@
 
 ## Positioning
 
-Tagline: A practical GenAI engineering lab with four AI product MVPs.
+Tagline: Three practical AI MVPs for outcomes, compliance, and legal self-defense.
 
 ## GitHub Topics
 
@@ -10,7 +10,6 @@ Use these when creating the repository:
 
 ```text
 ai
-generative-ai
 typescript
 education
 legaltech
@@ -19,16 +18,11 @@ sat
 open-source
 ai-safety
 developer-tools
-rag
-llm
-agents
-evals
 ```
 
 ## First README Screenshot Ideas
 
 - CLI output screenshot.
-- GenAI Lab demo output.
 - A simple web dashboard once added.
 - Compliance report preview.
 - Legal action letter preview.

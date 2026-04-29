@@ -9,18 +9,6 @@
 
 ## Packages
 
-### `packages/genai-lab`
-
-Implements reusable GenAI engineering patterns:
-
-- keyword retrieval for local knowledge
-- RAG-style cited answers
-- prompt evaluation
-- safety scanning
-- agent plan generation
-
-This package is intentionally dependency-light so contributors can understand the mechanics before adding production vector databases, model providers, and observability.
-
 ### `packages/sat-tutor`
 
 Stores question attempts in memory, calculates mastery, and creates a seven-day outcome plan. A production system would replace in-memory storage with a database and add adaptive question selection.
@@ -42,11 +30,3 @@ Runs lightweight document classification and risk scanning. A production system 
 - Auth: email magic link or organization SSO.
 - Observability: structured logs and audit events.
 
-## GenAI Production Upgrade Path
-
-- Replace keyword retrieval with embeddings and a vector database.
-- Add model provider adapters.
-- Store eval results over time.
-- Add prompt versioning.
-- Add human review workflows for high-risk outputs.
-- Add trace IDs across prompts, tools, retrieval, and responses.

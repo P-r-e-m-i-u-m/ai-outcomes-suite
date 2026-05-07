@@ -11,7 +11,7 @@
     "demo:compliance": "node dist/apps/cli/index.js compliance",
     "demo:legal": "node dist/apps/cli/index.js legal",
     "demo:all": "node dist/apps/cli/index.js all",
-    "test": "npm run build && node dist/tests/smoke.test.js",
+    "test": "npm run build && node dist/tests/smoke.test.js && node dist/tests/genai-evals.test.js",
     "check": "npm run build && npm run demo:all && npm test"
   },
   "devDependencies": {

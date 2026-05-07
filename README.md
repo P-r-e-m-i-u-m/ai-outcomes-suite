@@ -66,6 +66,7 @@ The repo is built so contributors can pick one lane and make it deeper.
 
 ```text
 apps/cli/                  Runnable demos for all three MVPs
+evals/                     Starter GenAI behavior eval cases
 packages/shared/           Shared types and mock AI provider
 packages/sat-tutor/        Skill gap tracking and study plan generator
 packages/compliance-os/    Compliance event SDK and report generator
@@ -123,6 +124,7 @@ Contributions are welcome. The best first PRs are:
 - Add compliance export formats.
 - Add legal risk patterns with jurisdiction notes.
 - Improve examples and docs.
+- Add or tighten GenAI behavior eval cases in `evals/`.
 - Add tests around the current engines.
 
 Read `CONTRIBUTING.md` and `docs/good-first-issues.md`.
